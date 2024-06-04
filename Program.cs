@@ -135,16 +135,17 @@ class VirtualPetSimulator
                     break;
                 case "5":
                     pet.displayStatus();
-                    Thread.Sleep(1000);
+                    Thread.Sleep(2000);
                     break;
                 case "6":
                     return;
                 default:
                     Console.WriteLine("Invalid choice. Try again.");
+                    Thread.Sleep(2000);
                     continue;
             }
 
-            Thread.Sleep(1000);
+            Thread.Sleep(3000);
 
         }
     }
