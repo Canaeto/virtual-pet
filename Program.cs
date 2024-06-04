@@ -109,7 +109,7 @@ class VirtualPetSimulator
         {
             Console.Clear();
             pet.displayStatus();
-            Console.WriteLine("Choose an action (1 - 4), 5 to exit:");
+            Console.WriteLine("Choose an action (1 - 5), 6 to exit:");
             Console.WriteLine("1. Feed");
             Console.WriteLine("2. Play");
             Console.WriteLine("3. Rest");
